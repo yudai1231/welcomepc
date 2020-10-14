@@ -191,19 +191,42 @@ header {
   margin:50px 0 40px;
 }
 
+/*contact ここまで*/
+
 footer{
   background-color: #233f51;
   display: flex;
   justify-content: space-between;
   color: #fff;
+  align-items: center;
   font-size: 18px;
   padding: 5px 0; 
-  align-items: center;
 }
 
 footer .footer-right{
   margin-right: 80px;
 }
+
+/*レスポンシブ対応(スマホ版など)*/
+
+/*小型PC*/
+@media screen and (max-width: 1280px){
+  .img-box li {
+    margin-right: 30px;
+  }
+}
+
+/*タブレット用*/
+@media screen and (max-width: 960px){
+
+}
+
+
+/*スマフォ用*/
+@media screen and (max-width: 480px){
+  
+}
+
 
 
 
