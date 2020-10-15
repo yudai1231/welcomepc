@@ -217,9 +217,10 @@ footer .footer-right{
 }
 
 /*タブレット用*/
-/*@media screen and (max-width: 960px){
+@media screen and (max-width: 960px){
+　
 
-}*/
+}
 
 
 /*スマフォ用*/
@@ -298,7 +299,6 @@ footer .footer-right{
   margin-top: 0px;
 }
 
-
   /*contact*/
 .form{
   flex-flow: column nowrap;
@@ -327,9 +327,18 @@ footer .footer-right{
 
 
   /*footer*/
+footer{
+  display: flex;
+  justify-content: center;
+}
 
+footer .icon{
+  display: none;
+}
 
-
+footer .footer-right{
+  margin-right: 0px;
+}
 
 
 
